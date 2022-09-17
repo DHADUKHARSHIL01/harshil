@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link 
+		rel="stylesheet" 
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+		crossorigin="anonymous" 
+		referrerpolicy="no-referrer" 
+	/>
+		<style>				
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		header{
+			width: 100%;
+			height: 70px;
+		}
+		.container{
+			padding: 20px;
+			display: flex;
+			background-color: aqua;
+		}
+		a{
+			text-decoration: none;
+		}
+		.container.logo{
+			width: 20%;
+		}
+		.container .logo span{
+			font-size: 25px;
+			color: orangered;
+		}
+		.container .logo a{
+			font-size: 20px;
+			color: black;
+			text-align: center;
+			padding-top: 20px;
+		}
+	 .container	.nav{
+			width: 50%;
+		}
+		.container .nav ul{
+			list-style-type: none;
+		}
+		.container .nav li{
+			display: inline-block;
+			padding: 20px;
+		} 
+		.container .nav li a{
+			font-size: 20px;
+			color: black;
+			font-weight: bold;
+		}
+		.container .nav li a:hover{
+			color: orange;
+		}
+	 .conter	.search{
+			width: 30%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+<div class="container">
+		<div class="logo">
+			<span class="fa-solid fa-dog"><span>
+				<a href="">Puppy care</a>
+		</div>
+
+		<div class="nav">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>				
+				<li><a href="">Services</a></li>
+				<li><a href="">Pages</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+
+		<div class="search">
+			<input type="search" placeholder="Enter Keyword....">
+			<i class="fa-solid fa-magnifying-glass"></i>
+			<i class="fa-regular fa-moon"></i>
+
+		</div>
+	</div>
+
+	</header>
+</body>
+</html>
