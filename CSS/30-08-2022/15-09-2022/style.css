@@ -1,0 +1,79 @@
+     body{
+      height: 300px;
+      width: 100%;
+      background-image: url(pexels-alice-castro-1870301.jpg);
+      background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     
+     }
+     * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+      }
+      header {
+        width: 100%;
+        height: 70px;
+       
+      }
+      .container {
+        align-items: center;
+        padding: 20px;
+        display: flex;
+        /* background-color: beige; */
+      }
+      a {
+        text-decoration: none;
+      }
+      .container .logo {
+        width: 35%;
+        text-align: center;
+        padding-left: 190px;
+      }
+      .container .logo span {
+        font-size: 40px;
+        color:orange;
+      }
+      .container .logo a {
+        font-size: 35px;
+        color: black;
+      }
+      .container .search {
+        width: 25%;
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+      }
+      .container .search input[type="text"] {
+        height: 30px;
+        width: 200px;
+        border-radius: 15px;
+        border: 2px solid white;
+      }
+      .container .search span {
+        padding: 10px;
+      }
+
+      .container .nav {
+        width: 40%;
+      }
+      .container .nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        justify-content: space-around;
+				/* padding-top: 20px;			 */
+								
+      }
+			.container .nav li a{ 
+				color:white;  
+        font-size: 25px;  
+			}
+        .container .moon span{
+          /* padding-top: 25p x; */
+          padding-right: 80px;
+      }
