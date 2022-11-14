@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<script src="https://code.jquery.com/jquery-3.6.1.js"
+		integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+	<style>
+		.hid {
+			height: 250px;
+			width: 300px;
+			background-color: aquamarine;
+			border: 2px solid deeppink;
+		}
+
+		.hide {
+			height: 250px;
+			width: 300px;
+			background-color: rgb(250, 2, 2);
+
+
+			border: 2px solid rgb(238, 255, 0);
+		}
+	</style>
+
+	<script>
+		$(document).ready(function () {
+			$("#btn1").click(function () {
+				$(".hid").hide(2000);
+			})
+
+			$("#btn2").click(function () {
+				$(".hid").show(2000);
+			})
+
+			$("#btn3").click(function () {
+				$(".hide").toggle(2000)
+			})
+		})
+	</script>
+
+</head>
+
+<body>
+
+	<button id="btn1">Hide</button>
+	<button id="btn2">show</button>
+	<button id="btn3">toggle</button>
+
+	<hr>
+	<div class="hid">hello word</div>
+	<hr>
+	<div class="hide">hello word</div>
+	<hr>
+
+</body>
+
+</html>
